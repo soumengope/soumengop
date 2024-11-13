@@ -1,0 +1,35 @@
+.gmap_loc{
+    width:90%;
+    height:300px;
+    margin-top:1rem;
+}
+.contacts_lists{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.contact_list{
+    margin:1rem 0rem;
+}
+.call{
+    width:35px;
+    height:35px;
+}
+.address{
+    width:40px;
+    height:40px;
+}
+.gmail{
+    width:30px;
+    height:25px;
+}
+@media screen and (max-width:728px) {
+    .gmap_loc{
+        height:auto;
+    }
+    .contacts_lists{
+        display:flex;
+        flex-direction: column;
+    }
+}

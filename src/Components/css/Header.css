@@ -1,0 +1,48 @@
+.main_header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1.5rem;
+}
+.header_logo{
+    font-family: 'Monaco', 'Courier New', monospace;
+    font-size:2rem;
+    font-weight: 800;
+}
+.header_socialLists{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    align-items: center;
+}
+.socialLists{
+    cursor:pointer;
+}
+.socialLists img{
+    filter: invert(36%) sepia(97%) saturate(7449%) 
+    hue-rotate(244deg) brightness(101%) contrast(103%);
+}
+.github_logo{
+    width:40px;
+    height:40px;
+}
+.gmail_logo{
+    width:26px;
+    height:22px;
+}
+.linkdin_logo{
+    width:30px;
+    height:30px;
+}
+.twitter_logo{
+    width:30px;
+    height:30px;
+}
+@media screen and (max-width:725px) {
+    .main_header{
+        display:flex;
+        flex-direction:column;
+        gap:0.5rem;
+    }
+}

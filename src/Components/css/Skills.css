@@ -1,0 +1,77 @@
+.skills_main{
+    margin-top:2rem;
+}
+.skills_control{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    padding:1.5rem 0.5rem;
+}
+.skills_control > div{
+    background-color: #f8ebff;
+    padding:0.5rem;
+    margin-top:0.5rem;
+}
+.skills_control img{
+    width:50px;
+    height:auto;
+    font-size:0.8rem;
+}
+.skills_langAlign{
+    display:flex;
+    flex-direction: row;
+    gap:1rem;
+    align-items:center;
+}
+.skills_percentageOuter{
+    margin-top:1rem;
+    width:100%;
+    height:30px;
+    background-color: #9787bb;
+    border-radius: 20px;
+    border:1px solid rgb(194, 183, 183);
+}
+.skills_percentageInner{
+    height:30px;
+    background-color: #67baa7;
+    position:relative;
+    border-radius: 20px;
+}
+.skills_percentage{
+    position:absolute;
+    top:-0.5rem;
+    left:0.5rem;
+    color:white;
+}
+.github_percentageInner,
+.html_percentageInner,
+.ard_percentageInner{
+    width:90%;
+}
+.css_percentageInner,
+.mongo_percentageInner,
+.mysql_percentageInner{
+    width:80%;
+}
+.js_percentageInner,
+.react_percentageInner,
+.php_percentageInner{
+    width:70%;
+}
+.node_percentageInner,
+.ps_percentageInner {
+    width:60%;
+}
+.cplus_percentageInner{
+    width:50%;
+}
+@media screen and (max-width:725px) {
+    .skills_control{
+        grid-template-columns: repeat(1,1fr);
+        gap:1rem;
+        padding:0.5rem 0rem;
+    }
+    .skills_control > div{
+        margin-top:0rem;
+    }
+}

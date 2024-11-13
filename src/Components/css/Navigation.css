@@ -1,0 +1,42 @@
+.navigation_main{
+    margin-top:1rem;
+    background-color:#f8ebff;
+    padding:0.5rem 0rem;
+}
+.mobnav_control{
+    display:none;
+}
+.nav_control{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding:0.5rem;
+}
+.navigation_main img{
+    display:none;
+}
+.navLists{
+    cursor:pointer;
+}
+.navLists a{
+    text-decoration: none;
+    color:#3d37ff;
+}
+
+@media screen and (max-width:725px){
+    .nav_control{
+        display:none;
+    }
+    .mobnav_control{
+        display:block;
+        padding-bottom:1.5rem;
+    }
+    .navigation_main img{
+        display:block;
+        width:50px;
+        height:50px;
+    }
+    .mob_navLists{
+        margin-bottom:1rem;
+    }
+}

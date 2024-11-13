@@ -1,0 +1,25 @@
+.experiences_main{
+    margin-top:2rem;
+}
+.experiences_main div + div{
+    margin-top:1rem;
+}
+.experences_lists{
+    width:50%;
+    margin:0 auto;
+    text-align:left;
+    padding:1rem;
+    border: 1px solid #f8ebff;
+    line-height: 0.5rem;
+}
+.experiences_desc{
+    line-height: 1.4rem;
+}
+@media screen  and (max-width:768px){
+    .experences_lists{
+        width:90%;
+    }
+    .experences_lists h3{
+        line-height:1.2rem;
+    }
+}
