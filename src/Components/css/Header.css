@@ -22,10 +22,14 @@
 .socialLists img{
     filter: invert(36%) sepia(97%) saturate(7449%) 
     hue-rotate(244deg) brightness(101%) contrast(103%);
+    transition: transform 0.3s linear;
+}
+.socialLists img:hover{
+    transform:scale(1.1);
 }
 .github_logo{
-    width:40px;
-    height:40px;
+    width:45px;
+    height:45px;
 }
 .gmail_logo{
     width:26px;

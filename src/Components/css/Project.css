@@ -68,6 +68,10 @@
 }
 .project_links img{
     filter: invert(36%) sepia(97%) saturate(7449%) hue-rotate(244deg) brightness(101%) contrast(103%);
+    transition: transform 0.3s linear;
+}
+.project_links img:hover{
+    transform:scale(1.1);
 }
 .project_gitImg{
     width:40px;

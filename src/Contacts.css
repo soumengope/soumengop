@@ -12,6 +12,10 @@
 .contact_list{
     margin:1rem 0rem;
 }
+.contact_list img{
+    filter: invert(36%) sepia(97%) saturate(7449%) 
+    hue-rotate(244deg) brightness(101%) contrast(103%);
+}
 .call{
     width:35px;
     height:35px;

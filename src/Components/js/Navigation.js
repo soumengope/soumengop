@@ -24,8 +24,8 @@ const Navigation = ()=>{
                 </div>
             </div>
             {
-               (!toggle) ? <img onClick={()=>{setToggle(!toggle)}} src="manu_open.png" alt="manu opening logo"/>:
-               <img onClick={()=>{setToggle(!toggle)}} src="manu_close.png" alt="manu opening logo"/> 
+               (!toggle) ? <img className="manu_open" onClick={()=>{setToggle(!toggle)}} src="manu_open.png" alt="manu opening logo"/>:
+               <img className="manu_close" onClick={()=>{setToggle(!toggle)}} src="manu_close.png" alt="manu opening logo"/> 
             }
             {
                 (toggle)?
@@ -40,7 +40,7 @@ const Navigation = ()=>{
                     <Link to="/experience">Experience</Link>
                 </div>
                 <div className="navLists mob_navLists">
-                    <Link to="/cv">Cv</Link>
+                    <Link to="/cv">Resume</Link>
                 </div>
                 <div className="navLists mob_navLists">
                     <Link to="/contacts">Contacts</Link>
