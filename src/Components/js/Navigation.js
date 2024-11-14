@@ -14,7 +14,7 @@ const Navigation = ()=>{
                     <Link to="/projects">Projects</Link>
                 </div>
                 <div className="navLists">
-                    <Link to="/experience">Experience</Link>
+                    <Link to="/experience">Experiences</Link>
                 </div>
                 <div className="navLists">
                     <Link to="/cv">Resume</Link>
@@ -37,7 +37,7 @@ const Navigation = ()=>{
                     <Link to="/projects">Projects</Link>
                 </div>
                 <div className="navLists mob_navLists">
-                    <Link to="/experience">Experience</Link>
+                    <Link to="/experience">Experiences</Link>
                 </div>
                 <div className="navLists mob_navLists">
                     <Link to="/cv">Resume</Link>
