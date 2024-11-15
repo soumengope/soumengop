@@ -56,6 +56,7 @@
 }
 .project_name{
     padding-top:1.5rem;
+    margin-top:2rem;
 }
 .project_desc{
     padding:0.5rem;
@@ -88,6 +89,10 @@
     color:#3d37ff;
     border-bottom:1px solid #3d37ff;
     padding:0.2rem 0.3rem;
+}
+.project_links a{
+    text-decoration: none;
+    border:none;
 }
 
 @media screen and (max-width : 765px) {
