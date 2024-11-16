@@ -11,6 +11,7 @@ const Skills = ()=>{
                             <div className="htmlTop_div skills_langAlign">
                                 <img src="html.png" alt="html logo" />
                                 <p>HTML</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="html_percentageInner skills_percentageInner">
@@ -24,6 +25,7 @@ const Skills = ()=>{
                             <div className="cssTop_div skills_langAlign">
                                 <img src="css.png" alt="css logo" />
                                 <p>CSS</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="css_percentageInner skills_percentageInner">
@@ -37,6 +39,7 @@ const Skills = ()=>{
                             <div className="jsTop_div skills_langAlign">
                                 <img src="js.png" alt="javascript logo" />
                                 <p>JavaScript</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="js_percentageInner skills_percentageInner">
@@ -50,6 +53,7 @@ const Skills = ()=>{
                             <div className="reactTop_div skills_langAlign">
                                 <img src="react.png" alt="react logo" />
                                 <p>ReactJS</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="react_percentageInner skills_percentageInner">
@@ -63,6 +67,7 @@ const Skills = ()=>{
                             <div className="nodeTop_div skills_langAlign">
                                 <img src="nodejs.png" alt="nodejs logo" />
                                 <p>NodeJS</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="node_percentageInner skills_percentageInner">
@@ -76,6 +81,7 @@ const Skills = ()=>{
                             <div className="mongoTop_div skills_langAlign">
                                 <img src="mongodb.png" alt="mongodb logo" />
                                 <p>MongoDB</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="mongo_percentageInner skills_percentageInner">
@@ -89,6 +95,7 @@ const Skills = ()=>{
                             <div className="phpTop_div skills_langAlign">
                                 <img src="php.png" alt="php logo" />
                                 <p>PHP</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="php_percentageInner skills_percentageInner">
@@ -102,6 +109,7 @@ const Skills = ()=>{
                             <div className="mysqlTop_div skills_langAlign">
                                 <img src="mysql.png" alt="mysql logo" />
                                 <p>MySQL</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="mysql_percentageInner skills_percentageInner">
@@ -115,6 +123,7 @@ const Skills = ()=>{
                             <div className="githubTop_div skills_langAlign">
                                 <img src="github.png" alt="github logo" />
                                 <p>gitHub</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="github_percentageInner skills_percentageInner">
@@ -128,6 +137,7 @@ const Skills = ()=>{
                             <div className="cplusTop_div skills_langAlign">
                                 <img src="coding.png" alt="c++ logo" />
                                 <p>C++</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="cplus_percentageInner skills_percentageInner">
@@ -141,6 +151,7 @@ const Skills = ()=>{
                             <div className="ardTop_div skills_langAlign">
                                 <img src="arduino.png" alt="arduino logo" />
                                 <p>Arduino</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="ard_percentageInner skills_percentageInner">
@@ -154,6 +165,7 @@ const Skills = ()=>{
                             <div className="psTop_div skills_langAlign">
                                 <img src="photoshop.png" alt="photoshop logo" />
                                 <p>Photoshop</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="ps_percentageInner skills_percentageInner">

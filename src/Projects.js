@@ -8,6 +8,7 @@ const Projects = ()=>{
             <div className="project_control">
 
                 <div className="project_lists">
+                    <div className="hole_circle"></div>
                     <div className="project_image">
                         <div className="prot_img">
                         <img className="protImg_lists" src="saturn_pot.png" alt="saturn mobile view"/>
@@ -30,6 +31,7 @@ const Projects = ()=>{
                     </div>
                 </div>
                 <div className="project_lists">
+                    <div className="hole_circle"></div>
                     <div className="project_image">
                         <div className="prot_img">
                         <img className="protImg_lists" src="innobytes_mobile.png" alt="innobytes mobile view"/>
@@ -53,6 +55,7 @@ const Projects = ()=>{
                     </div>
                 </div>
                 <div className="project_lists">
+                    <div className="hole_circle"></div>
                     <div className="project_image">
                         <div className="prot_img">
                         <img className="protImg_lists" src="portfolio_phpMob.png" alt="portfolio mobile view"/>
@@ -75,6 +78,7 @@ const Projects = ()=>{
                     </div>
                 </div>
                 <div className="project_lists">
+                    <div className="hole_circle"></div>
                     <div className="project_image">
                         <div className="prot_img">
                         <img className="protImg_lists" src="mycomp_mob.png" alt="mycomp mobile view"/>

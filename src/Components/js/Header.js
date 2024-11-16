@@ -1,6 +1,7 @@
 import '../css/Header.css'
 const Header = ()=>{
     return(
+        <>
         <section className="main_header">
             <div className="header_logo">SOUMEN GOPE</div>
             <div className="header_socialLists">
@@ -18,6 +19,10 @@ const Header = ()=>{
                 </div>
             </div>
         </section>
+        <div>
+            <img className="boxDgn" src="boxDgn_pf.svg" alt="box design logo" />
+        </div>
+        </>
     )
 }
 export default Header;

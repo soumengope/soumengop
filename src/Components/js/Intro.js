@@ -4,9 +4,10 @@ const Intro = ()=>{
         <>
         <section className="intro_main">
             <div className="intro_left">
-                <img src="my_pic.png" alt="my-photo" />
+                <img src="my_pic.jpeg" alt="my-photo" />
             </div>
             <div className="intro_right">
+                <span> <img className="curveFlat" src="curveFlat_pf.svg" alt="curveFlat logo" /></span>
                 <h1>Hello, my name is Soumen Gope , </h1>
                 <h3>I'm a Full-Stack Web Developer.</h3>
                 <p>

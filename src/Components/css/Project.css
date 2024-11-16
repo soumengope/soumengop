@@ -18,6 +18,7 @@
 }
 .project_lists{
     margin:0 auto;
+    position: relative;
 }
 .project_image{
     display:flex;
@@ -94,7 +95,18 @@
     text-decoration: none;
     border:none;
 }
-
+.hole_circle{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin:0 auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:1.5rem;
+    box-shadow: inset 1px 2px 5px 2px #9787bb;
+}
 @media screen and (max-width : 765px) {
     .project_control{
         grid-template-columns: repeat(1,1fr);
@@ -108,6 +120,7 @@
     .prot_img{
         width:30%;
         height:160px;
+        left:1rem;
     }
     .lan_img{
         position:relative;

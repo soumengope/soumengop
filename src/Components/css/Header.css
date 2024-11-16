@@ -45,10 +45,26 @@
     height:30px;
     margin-left:0.5rem;
 }
+.boxDgn{
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:1rem;
+    opacity:0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
+    animation:boxDgn 10s linear infinite;
+}
+@keyframes boxDgn{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
 @media screen and (max-width:725px) {
     .main_header{
         display:flex;
         flex-direction:column;
         gap:0.5rem;
+    }
+    .boxDgn{
+        display:none;
     }
 }
