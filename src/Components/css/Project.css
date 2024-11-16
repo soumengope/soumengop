@@ -19,6 +19,7 @@
 .project_lists{
     margin:0 auto;
     position: relative;
+    box-shadow:0px 0px 8px 1px #9787bb;
 }
 .project_image{
     display:flex;
@@ -108,11 +109,17 @@
     box-shadow: inset 1px 2px 5px 2px #9787bb;
 }
 @media screen and (max-width : 765px) {
+    .project_main{
+        margin-top:0.5rem;
+        padding:0;
+        padding-top:1rem;
+        margin-bottom:0.5rem;
+    }
     .project_control{
         grid-template-columns: repeat(1,1fr);
     }
     .project_control>div + div{
-        margin-top:1.5rem;
+        margin-top:0.5rem;
     }
     .project_name{
         padding-top:2.5rem;
