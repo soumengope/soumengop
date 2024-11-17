@@ -3,6 +3,7 @@
     background-color: #f8ebff;
     margin-bottom:0;
     box-shadow:1px 1px 4px 0px #9787bb;
+    border-radius:0 0 0.8rem 0.8rem;
 }
 .footer_desc{
     padding:0.5rem;
