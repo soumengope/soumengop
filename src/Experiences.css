@@ -9,7 +9,7 @@
     margin:0 auto;
     text-align:left;
     padding:1rem;
-    border: 1px solid #f8ebff;
+    box-shadow:0px 0px 8px 1px #9787bb;
     line-height: 0.5rem;
 }
 .experiences_desc{

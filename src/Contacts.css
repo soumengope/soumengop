@@ -6,8 +6,8 @@
 .contacts_lists{
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
-    align-items: center;
+    justify-content:space-evenly;
+    align-items:baseline;
 }
 .contact_list{
     margin:1rem 0rem;

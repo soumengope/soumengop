@@ -10,14 +10,25 @@
 }
 .hobbies_lists{
     position: relative;
+    overflow: hidden;
 }
 .curveArrow{
     width:50x;
     height:100px;
     position: absolute;
     left:0;
-    top:-0.5rem;
+    top:-0.8rem;
     transform: rotate(150deg);
+    opacity: 0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
+}
+.curveArrow2{
+    width:50x;
+    height:100px;
+    position: absolute;
+    right:0;
+    top:-0.8rem;
+    transform:scaleY(-1) rotate(-30deg) ;
     opacity: 0.5;
     filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
 }
@@ -53,8 +64,9 @@
         width:80px;
         height:80px;
     }
-    .curveArrow{
-        width:30x;
-        height:70px;
+    .curveArrow,.curveArrow2{
+        width:20x;
+        height:50px;
+        top:-0.4rem;
     }
 }

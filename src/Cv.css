@@ -1,28 +1,30 @@
-#resume_header{
+.resume_header{
     padding-top:40px;
     font-weight:800;
     text-align:center;
 }
-#img_div{
+.img_div{
     padding-top:20px;
     padding-bottom:20px;
     margin:0 auto;
     text-align:center;
 }
-#img_div img{
+.img_div img{
     border:5px solid #f8ebff;
     margin:5px;
-    box-shadow:1px 1px 4px 0px #E5E5E5;
+    box-shadow:0px 0px 8px 1px #9787bb;
 }
-#img_div a{
+.cv_download{
+    margin-top:1.5rem;
+}
+.cv_download a{
     text-decoration:none;
     text-align:center;
     font-size:18px;
     font-weight:600;
-    padding-top:10px;
     color:rgb(74, 74, 226);
 }
 
 @media screen and (min-width:0px) and (max-width:768px){
-    #img_div img{width:94%;height:100%;}
+    .img_div img{width:94%;height:100%;}
 }

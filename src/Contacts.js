@@ -7,18 +7,18 @@ const Contacts = ()=>{
         <div className="contacts_lists">
             <div className="contact_list">
                 <img className="gmail" src="gmail.png" alt="gmail logo"/>
-                <p>Send me mail at</p>
+                <p>Send me mail at</p><hr/>
                 <p>soumengop@gmail.com</p>
             </div>
             <div className="contact_list">
                 <img className="call" src="call.png" alt="call logo"/>
-                <p>call me at</p>
+                <p>call me at</p><hr/>
                 <p>+91 7319047005</p>
                 <p>+91 8016808823</p>
             </div>
             <div className="contact_list">
                 <img className="address" src="address.png" alt="gmail logo"/>
-                <p>My address</p>
+                <p>My address</p><hr/>
                 <p>Bankura, West Bengal, India</p>
             </div>
         </div>
