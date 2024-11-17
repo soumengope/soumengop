@@ -3,6 +3,7 @@
     background-color:#f8ebff;
     padding:0.5rem 0rem;
     box-shadow:1px 1px 4px 0px #9787bb;
+    overflow: hidden;
 }
 .mobnav_control{
     display:none;
