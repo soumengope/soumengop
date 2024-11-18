@@ -20,7 +20,7 @@ const Hobbies = ()=>{
                 </div>
                 <div className="hobbies_lists">
                     <div className="hobbies_img">
-                    <img className="hobbies_imgLists" src="books.png" alt="books logo"/>
+                    <img className="hobbies_imgLists hobbies_readingBooks" src="books.png" alt="books logo"/>
                     </div>
                     <span><img className="curveArrow" src="curve_arrow.svg" alt="curve arrow logo"/></span>
                     <span><img className="curveArrow2" src="curve_arrow.svg" alt="curve arrow logo"/></span>
@@ -32,7 +32,7 @@ const Hobbies = ()=>{
                 </div>
                 <div className="hobbies_lists">
                     <div className="hobbies_img">
-                    <img className="hobbies_imgLists" src="movies.png" alt="movies logo"/>
+                    <img className="hobbies_imgLists hobbies_watchMovies" src="movies.png" alt="movies logo"/>
                     </div>
                     <span><img className="curveArrow" src="curve_arrow.svg" alt="curve arrow logo"/></span>
                     <span><img className="curveArrow2" src="curve_arrow.svg" alt="curve arrow logo"/></span>
@@ -44,7 +44,7 @@ const Hobbies = ()=>{
                 </div>
                 <div className="hobbies_lists">
                     <div className="hobbies_img">
-                    <img className="hobbies_imgLists" src="music.png" alt="music logo"/>
+                    <img className="hobbies_imgLists hobbies_music" src="music.png" alt="music logo"/>
                     </div>
                     <span><img className="curveArrow" src="curve_arrow.svg" alt="curve arrow logo"/></span>
                     <span><img className="curveArrow2" src="curve_arrow.svg" alt="curve arrow logo"/></span>

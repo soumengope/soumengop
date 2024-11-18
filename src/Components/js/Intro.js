@@ -4,7 +4,7 @@ const Intro = ()=>{
         <>
         <section className="intro_main">
             <div className="intro_left">
-                <img src="my_pic.jpeg" alt="my-photo" />
+                <img className="intro_pic" src="books.png" alt="my-photo" />
             </div>
             <div className="intro_right">
                 <span> <img className="curveFlat" src="curveFlat_pf.svg" alt="curveFlat logo" /></span>

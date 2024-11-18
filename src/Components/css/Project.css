@@ -90,8 +90,9 @@
 .project_main a{
     text-decoration: none;
     color:#3d37ff;
-    border-bottom:1px solid #3d37ff;
+    border-bottom:2px solid #3d37ff;
     padding:0.2rem 0.3rem;
+    font-weight: 600;
 }
 .project_links a{
     text-decoration: none;

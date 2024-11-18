@@ -11,8 +11,9 @@
     padding-right: 1.5rem;
     padding-bottom:0.8rem;
     border-radius: 2rem;
-    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
-    box-shadow: inset -2px -2px 5px 1px #67baa7;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%)
+    drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+    box-shadow: inset -3px -3px 5px 2px rgba(103,186,167,0.5);
 }
 .hobbies_lists{
     position: relative;
@@ -41,6 +42,14 @@
 .hobbies_imgLists{
     width:100%;
     height:100%;
+}
+.hobbies_watchMovies{
+    width:88%;
+    height:88%;
+}
+.hobbies_readingBooks,.hobbies_music{
+    width:95%;
+    height:95%;
 }
 .hobbies_control{
     display:grid;
