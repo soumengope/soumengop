@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Project = ()=>{
     return(
         <section className="project_main">
-            <h2>Projects I Built</h2>
+            <h2 className="project_header">Projects I Built</h2>
             <div className="project_control">
 
             <div className="project_lists">

@@ -82,11 +82,30 @@
     transform: rotate(90deg);
     filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
 }
+.skills_header{
+    position:relative;
+}
+.skills_header::after{
+    content: " ";
+    background-image: url('lighting_arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 0.8rem;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
+}
 @media screen and (max-width:725px) {
     .skills_control{
         grid-template-columns: repeat(1,1fr);
         gap:1rem;
         padding:0.5rem 0rem;
+    }
+    .skills_header::after{
+        background-image: unset;
     }
     .skills_control > div{
         margin-top:0rem;

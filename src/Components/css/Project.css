@@ -10,6 +10,22 @@
     gap:2rem;
     margin-bottom:1rem;
 }
+.project_header{
+    position:relative;
+}
+.project_header::after{
+    content: " ";
+    background-image: url('lighting_arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 0.8rem;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
+}
 .project_control> div{
     margin:0 auto;
     background-color: #f8ebff;
@@ -110,12 +126,20 @@
     top:1.5rem;
     box-shadow: inset 1px 2px 5px 2px #9787bb;
 }
+@media screen and (max-width : 1050px){
+    .project_control{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 @media screen and (max-width : 765px) {
     .project_main{
         margin-top:0.5rem;
         padding:0;
         padding-top:1rem;
         margin-bottom:0.5rem;
+    }
+    .project_header::after{
+        background-image: unset;
     }
     .project_control{
         grid-template-columns: repeat(1,1fr);
