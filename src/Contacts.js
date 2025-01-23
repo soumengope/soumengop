@@ -12,7 +12,7 @@ const Contacts = ()=>{
             </div>
             <div className="contact_list">
                 <img className="call" src="call.png" alt="call logo"/>
-                <p>call me at</p><hr/>
+                <p>Phone / Whatsapp</p><hr/>
                 <p>+91 7319047005</p>
                 <p>+91 8016808823</p>
             </div>
