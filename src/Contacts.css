@@ -3,6 +3,22 @@
     height:300px;
     margin-top:1rem;
 }
+.contacts_header{
+    position:relative;
+}
+.contacts_header::after{
+    content: " ";
+    background-image: url('../public/lighting_arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 0.8rem;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
+}
 .contacts_lists{
     display:flex;
     flex-direction: row;
@@ -31,6 +47,9 @@
 @media screen and (max-width:728px) {
     .gmap_loc{
         height:auto;
+    }
+    .contacts_header::after{
+        background-image: unset;
     }
     .contacts_lists{
         display:flex;

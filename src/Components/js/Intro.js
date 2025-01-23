@@ -5,7 +5,7 @@ const Intro = ()=>{
         <section className="intro_main">
             <div className="intro_left">
                 <div className="introPic_wrapper">
-                    <img className="intro_pic" src="soumen.jpeg" alt="my-photo" />
+                    <img className="intro_pic" src="soumen.jpeg" alt="soumen gope's pic" />
                 </div>
             </div>
             <div className="intro_right">

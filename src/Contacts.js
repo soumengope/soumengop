@@ -2,7 +2,7 @@ import './Contacts.css';
 const Contacts = ()=>{
     return(
         <>
-        <h2>Contact Me</h2>
+        <h2 className="contacts_header">Contact Me</h2>
 
         <div className="contacts_lists">
             <div className="contact_list">
@@ -12,7 +12,7 @@ const Contacts = ()=>{
             </div>
             <div className="contact_list">
                 <img className="call" src="call.png" alt="call logo"/>
-                <p>Phone / Whatsapp</p><hr/>
+                <p>call me at</p><hr/>
                 <p>+91 7319047005</p>
                 <p>+91 8016808823</p>
             </div>

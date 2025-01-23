@@ -1,6 +1,22 @@
 .experiences_main{
     margin-top:2rem;
 }
+.experiences_header{
+    position:relative;
+}
+.experiences_header::after{
+    content: " ";
+    background-image: url('../public/lighting_arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 0.8rem;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
+}
 .experiences_main div + div{
     margin-top:1rem;
 }
@@ -17,6 +33,9 @@
     line-height: 1.4rem;
 }
 @media screen  and (max-width:768px){
+    .experiences_header::after{
+        background-image: unset;
+    }
     .experences_lists{
         width:90%;
     }

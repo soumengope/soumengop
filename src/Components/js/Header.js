@@ -7,23 +7,23 @@ const Header = ()=>{
             <div className="header_socialLists">
                 <div className="socialLists">
                     <a href="https://github.com/soumengope" target="_blank" rel="noopener noreferrer">
-                        <img className="github_logo" src="github.png" alt="github logo"/>
+                        <img className="github_logo" src="github.png" alt="Github profile of Soumen Gope"/>
                     </a>
                 </div>
                 <div className="socialLists">
                     <a href="mailto:soumengop@gmail.com" rel="noopener noreferrer">
-                        <img className="gmail_logo" src="gmail.png" alt="gmail logo" />
+                        <img className="gmail_logo" src="gmail.png" alt="Send an email to Soumen Gope" />
                     </a>
                 </div>
                 <div className="socialLists">
                
                     <a href="https://www.linkedin.com/in/soumengop/" target="_blank" rel="noopener noreferrer">
-                        <img className="linkdin_logo" src="linkdin.png" alt="linkdin logo" />
+                        <img className="linkdin_logo" src="linkdin.png" alt="LinkedIn profile of Soumen Gope" />
                     </a>
                 </div>
                 <div className="socialLists">
                     <a href="https://x.com/soumen_gope" target="_blank" rel="noopener noreferrer">
-                        <img className="twitter_logo" src="twitter.png" alt="twitter logo"/>
+                        <img className="twitter_logo" src="twitter.png" alt="Twitter profile of Soumen Gope"/>
                     </a>
                 </div>
             </div>

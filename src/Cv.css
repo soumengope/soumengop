@@ -2,6 +2,20 @@
     padding-top:40px;
     font-weight:800;
     text-align:center;
+    position:relative;
+}
+.resume_header::after{
+    content: " ";
+    background-image: url('../public/lighting_arrow.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 0.8rem;
+    width: 25px;
+    height: 25px;
+    opacity: 0.5;
+    filter: invert(87%) sepia(12%) saturate(1328%) hue-rotate(109deg) brightness(79%) contrast(82%);
 }
 .img_div{
     padding-top:20px;
@@ -31,5 +45,11 @@
 }
 
 @media screen and (min-width:0px) and (max-width:768px){
-    .img_div img{width:94%;height:100%;}
+    .resume_header::after{
+        background-image: unset;
+    }
+    .img_div img{
+        width:94%;
+        height:100%;
+    }
 }

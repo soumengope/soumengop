@@ -2,7 +2,7 @@ import './Experiences.css';
 const Experience = ()=>{
     return(
         <>
-        <h2>Experiences</h2>
+        <h2 className="experiences_header">Experiences</h2>
 
         <div className="experiences_main">
             <div className="experences_lists">
