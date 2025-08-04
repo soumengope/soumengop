@@ -30,6 +30,31 @@ const Projects = ()=>{
                     </a>
                     </div>
                 </div>
+
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
+                        <img className="protImg_lists" src="epstein_mob.png" alt="epstein mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="epstein_desk.png" alt="epstein desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">Epstein Parody</h3>
+                    <p className="project_desc">
+                    A darkly satirical Epstein parody site showcasing advanced frontend skills through micro-interactions, animations, and responsive design.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/Epstein-meme" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://soumengope.github.io/Epstein-meme/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
                 <div className="project_lists">
                     <div className="hole_circle"></div>
                     <div className="project_image">
@@ -54,6 +79,31 @@ const Projects = ()=>{
                     </a>
                     </div>
                 </div>
+
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
+                        <img className="protImg_lists" src="uranus_mob.png" alt="epstein mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="uranus_desk.png" alt="epstein desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">Uranus front-end website</h3>
+                    <p className="project_desc">
+                    A parody website that mixes humor, crypto, and bold design — using fun animations and interactive elements to highlight my frontend development skills in a unique way.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/Uranus" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://soumengope.github.io/Uranus/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
                 <div className="project_lists">
                     <div className="hole_circle"></div>
                     <div className="project_image">
