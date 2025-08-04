@@ -152,6 +152,54 @@ const Projects = ()=>{
                     </div>
                 </div>
 
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
+                        <img className="protImg_lists" src="springdale_mob.png" alt="mycomp mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="springdale_desk.png" alt="mycomp desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">Springdale front-end project</h3>
+                    <p className="project_desc">
+                        A responsive school website built with Next.js, showcasing academics, events, and admissions.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/Springdale-school" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://springdale-school.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
+                        <img className="protImg_lists" src="ngo_mob.png" alt="mycomp mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="ngo_desk.png" alt="mycomp desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">Pathshala NGO simple website</h3>
+                    <p className="project_desc">
+                        A responsive NGO website built with HTML, CSS, and JavaScript, showcasing projects, impact, and community initiatives.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/Pathshala_NGO" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://soumengope.github.io/Pathshala_NGO/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
             </div>
         </section>
         </>
