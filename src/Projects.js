@@ -59,6 +59,30 @@ const Projects = ()=>{
                     <div className="hole_circle"></div>
                     <div className="project_image">
                         <div className="prot_img">
+                        <img className="protImg_lists" src="amazon_mob.png" alt="innobytes mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="amazon_desk.png" alt="innobytes desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">Amazon Landing page</h3>
+                    <p className="project_desc">
+                    A responsive Amazon-inspired homepage built with HTML, CSS, and JavaScript, showcasing modern frontend design and interactivity.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/mini-frontend-projects/tree/main/AmazonHomepage" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://soumengope.github.io/mini-frontend-projects/AmazonHomepage/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
                         <img className="protImg_lists" src="innobytes_mobile.png" alt="innobytes mobile view"/>
                         </div>
                         <div className="lan_img">
@@ -75,6 +99,54 @@ const Projects = ()=>{
                         <img className="project_gitImg" src="github.png" alt="github logo" />
                     </a>
                     <a href="https://innobytes-frontend-woad.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
+                        <img className="protImg_lists" src="portfolio_phpMob.png" alt="portfolio mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="portfolio_phpDesk.png" alt="portfolio desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">My Previous Portfolio</h3>
+                    <p className="project_desc">
+                    This is my previous portfolio website, showcasing my skills in web development, photography, and graphic design. It highlights my projects, expertise, and personal interests.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/myportfolio" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://soumengope.free.nf/" target="_blank" rel="noopener noreferrer">
+                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
+                    </a>
+                    </div>
+                </div>
+
+                <div className="project_lists">
+                    <div className="hole_circle"></div>
+                    <div className="project_image">
+                        <div className="prot_img">
+                        <img className="protImg_lists" src="hasslebled_mob.png" alt="hasslebled mobile view"/>
+                        </div>
+                        <div className="lan_img">
+                        <img className="lanImg_lists" src="hasslebled_desk.png" alt="hasslebled desktop view"/>
+                        </div>
+                    </div>
+                    <h3 className="project_name">Hasslebled Landing page</h3>
+                    <p className="project_desc">
+                    A modern Hasselblad-inspired camera landing page built with HTML, CSS, and JavaScript, focusing on clean design and smooth user experience.
+                    </p>
+                    <div className="project_links">
+                    <a href="https://github.com/soumengope/mini-frontend-projects/tree/main/HassleBladLandingPage" target="_blank" rel="noopener noreferrer">
+                        <img className="project_gitImg" src="github.png" alt="github logo" />
+                    </a>
+                    <a href="https://soumengope.github.io/mini-frontend-projects/HassleBladLandingPage/" target="_blank" rel="noopener noreferrer">
                         <img className="project_liveImg" src="visit.png" alt="globe logo" />
                     </a>
                     </div>
@@ -104,29 +176,6 @@ const Projects = ()=>{
                     </div>
                 </div>
 
-                <div className="project_lists">
-                    <div className="hole_circle"></div>
-                    <div className="project_image">
-                        <div className="prot_img">
-                        <img className="protImg_lists" src="portfolio_phpMob.png" alt="portfolio mobile view"/>
-                        </div>
-                        <div className="lan_img">
-                        <img className="lanImg_lists" src="portfolio_phpDesk.png" alt="portfolio desktop view"/>
-                        </div>
-                    </div>
-                    <h3 className="project_name">My Previous Portfolio</h3>
-                    <p className="project_desc">
-                    This is my previous portfolio website, showcasing my skills in web development, photography, and graphic design. It highlights my projects, expertise, and personal interests.
-                    </p>
-                    <div className="project_links">
-                    <a href="https://github.com/soumengope/myportfolio" target="_blank" rel="noopener noreferrer">
-                        <img className="project_gitImg" src="github.png" alt="github logo" />
-                    </a>
-                    <a href="https://soumengope.free.nf/" target="_blank" rel="noopener noreferrer">
-                        <img className="project_liveImg" src="visit.png" alt="globe logo" />
-                    </a>
-                    </div>
-                </div>
                 <div className="project_lists">
                     <div className="hole_circle"></div>
                     <div className="project_image">
