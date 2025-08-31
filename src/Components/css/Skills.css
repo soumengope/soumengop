@@ -54,19 +54,19 @@
 }
 .css_percentageInner,
 .mongo_percentageInner,
-.mysql_percentageInner{
+.express_percentageInner{
     width:80%;
 }
 .js_percentageInner,
 .react_percentageInner,
-.php_percentageInner{
+.node_percentageInner,
+.redux_percentageInner{
     width:70%;
 }
-.node_percentageInner,
 .ps_percentageInner {
     width:60%;
 }
-.cplus_percentageInner{
+.aiml_percentageInner{
     width:50%;
 }
 .skills_contents{

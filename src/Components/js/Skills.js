@@ -63,6 +63,20 @@ const Skills = ()=>{
                         </div>
                 </div>
                 <div className="skills_contents">
+                        <div className="redux_main">
+                            <div className="reduxTop_div skills_langAlign">
+                                <img src="redux.png" alt="redux logo" />
+                                <p>Redux</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
+                            </div>
+                            <div className="skills_percentageOuter">
+                                <div className="redux_percentageInner skills_percentageInner">
+                                    <p className="skills_percentage">70%</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div className="skills_contents">
                         <div className="node_main">
                             <div className="nodeTop_div skills_langAlign">
                                 <img src="nodejs.png" alt="nodejs logo" />
@@ -71,7 +85,21 @@ const Skills = ()=>{
                             </div>
                             <div className="skills_percentageOuter">
                                 <div className="node_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">60%</p>
+                                    <p className="skills_percentage">70%</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div className="skills_contents">
+                        <div className="express_main">
+                            <div className="expressTop_div skills_langAlign">
+                                <img src="express.png" alt="express js logo" />
+                                <p>Express</p>
+                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
+                            </div>
+                            <div className="skills_percentageOuter">
+                                <div className="express_percentageInner skills_percentageInner">
+                                    <p className="skills_percentage">80%</p>
                                 </div>
                             </div>
                         </div>
@@ -90,34 +118,7 @@ const Skills = ()=>{
                             </div>
                         </div>
                 </div>
-                <div className="skills_contents">
-                        <div className="php_main">
-                            <div className="phpTop_div skills_langAlign">
-                                <img src="php.png" alt="php logo" />
-                                <p>PHP</p>
-                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
-                            </div>
-                            <div className="skills_percentageOuter">
-                                <div className="php_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">70%</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div className="skills_contents">
-                        <div className="mysql_main">
-                            <div className="mysqlTop_div skills_langAlign">
-                                <img src="mysql.png" alt="mysql logo" />
-                                <p>MySQL</p>
-                                <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
-                            </div>
-                            <div className="skills_percentageOuter">
-                                <div className="mysql_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">80%</p>
-                                </div>
-                            </div>
-                        </div>
-                </div>
+                
                 <div className="skills_contents">
                         <div className="github_main">
                             <div className="githubTop_div skills_langAlign">
@@ -133,14 +134,14 @@ const Skills = ()=>{
                         </div>
                 </div>
                 <div className="skills_contents">
-                        <div className="cplus_main">
-                            <div className="cplusTop_div skills_langAlign">
-                                <img src="coding.png" alt="c++ logo" />
-                                <p>C++</p>
+                        <div className="aiml_main">
+                            <div className="aimlTop_div skills_langAlign">
+                                <img src="aiml.png" alt="ai/ml logo" />
+                                <p>AI/ML</p>
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="cplus_percentageInner skills_percentageInner">
+                                <div className="aiml_percentageInner skills_percentageInner">
                                     <p className="skills_percentage">50%</p>
                                 </div>
                             </div>
