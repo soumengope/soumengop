@@ -1,8 +1,30 @@
 import '../css/Skills.css';
+import { useState, useEffect, useRef } from 'react';
 const Skills = ()=>{
+    const ref = useRef(null);
+    const [view, setView] = useState(null);
+
+    useEffect(()=>{
+        const target = ref.current;
+        const observer = new IntersectionObserver((entries)=>{
+            const entry = entries[0];
+            setView(entry.isIntersecting);
+        },
+        {
+            threshold:0.2
+        })
+
+        if(target){
+            observer.observe(target);
+        }
+        return ()=>{
+            if(target) observer.unobserve(target)
+        }
+
+    },[])
     return(
         <>
-        <section className="skills_main">
+        <section className="skills_main" ref={ref}>
             <h1 className="skills_header">Skills & Technologies</h1>
             <div className="skills_control">
 
@@ -14,8 +36,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="html_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">90%</p>
+                                <div className={view ? "html_percentageInner skills_percentageInner gha_style" : "html_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '90%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -28,8 +50,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="css_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">80%</p>
+                                <div className={view ? "css_percentageInner skills_percentageInner cme_style" : "css_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '80%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +64,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="js_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">70%</p>
+                                <div className={view ? "js_percentageInner skills_percentageInner jrnr_style" : "js_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '70%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +78,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="react_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">70%</p>
+                                <div className={view ? "react_percentageInner skills_percentageInner jrnr_style" : "react_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '70%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +92,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="redux_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">70%</p>
+                                <div className={view ? "redux_percentageInner skills_percentageInner jrnr_style" : "redux_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '70%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -84,8 +106,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="node_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">70%</p>
+                                <div className={view ? "node_percentageInner skills_percentageInner jrnr_style" : "node_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '70%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -98,8 +120,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="express_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">80%</p>
+                                <div className={view ? "express_percentageInner skills_percentageInner cme_style" : "express_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '80%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -112,8 +134,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="mongo_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">80%</p>
+                                <div className={view ? "mongo_percentageInner skills_percentageInner cme_style" : "mongo_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '80%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -127,8 +149,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="github_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">90%</p>
+                                <div className={view ? "github_percentageInner skills_percentageInner gha_style" : "github_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '90%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -141,8 +163,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="aiml_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">50%</p>
+                                <div className={view ? "aiml_percentageInner skills_percentageInner aiml_style" : "aiml_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '50%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -155,8 +177,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="ard_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">90%</p>
+                                <div className={view ? "ard_percentageInner skills_percentageInner gha_style" : "ard_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '90%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>
@@ -169,8 +191,8 @@ const Skills = ()=>{
                                 <span><img className="curveLine" src="curveLine_pf.svg" alt="curve lines logo" /></span>
                             </div>
                             <div className="skills_percentageOuter">
-                                <div className="ps_percentageInner skills_percentageInner">
-                                    <p className="skills_percentage">60%</p>
+                                <div className={view ? "ps_percentageInner skills_percentageInner ps_style" : "ps_percentageInner skills_percentageInner"}>
+                                    <p className="skills_percentage">{(view) ? '60%' : '0%'}</p>
                                 </div>
                             </div>
                         </div>

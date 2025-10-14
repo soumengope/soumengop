@@ -8,7 +8,7 @@ const Project = ()=>{
 
             <div className="project_lists">
                     <div className="hole_circle"></div>
-                    <div className="project_image">
+                    <div className="project_image" >
                         <div className="prot_img">
                         <img className="protImg_lists" src="saturn_pot.png" alt="saturn mobile view"/>
                         </div>

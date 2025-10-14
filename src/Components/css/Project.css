@@ -44,6 +44,12 @@
     justify-content:center;
     position:realtive;
 }
+.project_image:hover .prot_img{
+    transform: translateX(-12.5%);
+}
+.project_image:hover .lan_img{
+    transform: translateX(12.5%);
+}
 .prot_img{
     position:relative;
     text-align:center;
@@ -52,6 +58,7 @@
     z-index:1;
     justify-content: center;
     left:2rem;
+    transition: transform 0.3s linear;
 }
 .lan_img{
     position:relative;
@@ -60,6 +67,7 @@
     top:3rem;
     left:-2rem;
     z-index:0;
+    transition: transform 0.3s linear;
 }
 .protImg_lists{
     width:100%;
